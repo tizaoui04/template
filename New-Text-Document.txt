@@ -1,0 +1,9 @@
+sabit lcmnder
+sabit lgit 
+i created an account
+fil cmnder write : git clone https://github.com/tizaoui04/template
+cd - thot chemin - ls = tatik chnya fama fi dossier 
+how to push : git add -- all ( tziddes ficher updated )
+git commit -m "message" ( thot lupdate fi envelope bech tabathou ) 
+git push ( to send the msg )
+how to pull : git pull orgin ( bech ne5ou l5edma ) 
