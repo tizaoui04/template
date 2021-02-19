@@ -2,21 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>E Store - eCommerce HTML Template</title>
+        <title>EYETECH</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
-
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-
+		<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+		<link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
 <link rel="stylesheet" href="scss/style.css">
 
 
@@ -61,8 +56,8 @@
 					</div>
 					<div class="navbar-nav ml-auto">
 						<div class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
-							<div class="dropdown-menu">
+							<a href="#" class="nav-link dropdown-toggle dropbtn" data-toggle="dropdown">User Account</a>
+							<div class="dropdown-content">
 								<a href="#" class="dropdown-item">Login</a>
 								<a href="#" class="dropdown-item">Register</a>
 							</div>
@@ -97,7 +92,7 @@
 							<i class="fa fa-heart"></i>
 							<span>(0)</span>
 						</a>
-						<a href="cart.html" class="btn cart">
+						<a href="panier.html" class="btn cart">
 							<i class="fa fa-shopping-cart"></i>
 							<span>(0)</span>
 						</a>
@@ -140,6 +135,228 @@
 		</div>
 	
 	  <br>
+
+
+<!--For Page-->
+<div class="page">
+    <!--For Row containing all card-->
+    <div class="row">
+        <!--Card 1-->
+		<div class="col-xl-12">
+			<div class="section-headline centered margin-top-0 margin-bottom-45">
+				<h3>Featured Product</h3>
+			</div>
+		</div>
+        <div class="col-sm">
+            <div class="card card-cascade card-ecommerce wider shadow mb-5 ">
+                <!--Card image-->
+                <div class="view view-cascade overlay text-center"> <img class="card-img-top" src="images/5.jpg" alt=""> <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a> </div>
+                <!--Card Body-->
+                <div class="card-body card-body-cascade text-center">
+                    <!--Card Title-->
+                    <h4 class="card-title"><strong><a href="">Tripod Gorillapod</a></strong></h4> <!-- Card Description-->
+                    <p class="card-text">This is a Tripod  with all the advance features and at best price. </p>
+                    <p class="price">$50</p> <!-- Card Rating-->
+                    <ul class="row rating">
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <!--Card footer-->
+                    <div class="card-footer">
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card 2-->
+        <div class="col-sm">
+            <div class="card card-cascade card-ecommerce wider shadow mb-5 ">
+                <!--Card image-->
+                <div class="view view-cascade overlay text-center"> <img class="card-img-top" src="images/photography-accessories.jpg" alt=""> <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a> </div>
+                <!--Card Body-->
+                <div class="card-body card-body-cascade text-center">
+                    <!--Card Title-->
+                    <h4 class="card-title"><strong><a href="">Camera with accesoire</a></strong></h4>
+                    <!--Card Description-->
+                    <p class="card-text">Comes with advance sensors, this is a perfect match for photographers. </p>
+                    <p class="price">$60</p> <!-- Card Rating-->
+                    <ul class="row rating">
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <!--Card footer-->
+                    <div class="card-footer">
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card 2-->
+        <div class="col-sm">
+            <div class="card card-cascade card-ecommerce wider shadow mb-5 ">
+                <!--Card image-->
+                <div class="view view-cascade overlay text-center"> <img class="card-img-top" src="images/6.jpg" alt=""> <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a> </div>
+                <!--Card Body-->
+                <div class="card-body card-body-cascade text-center">
+                    <!--Card Title-->
+                    <h4 class="card-title"><strong><a href="">Caméra de surveillance</a></strong></h4>
+                    <!--Description-->
+                    <p class="card-text">Les caméras de surveillance se sont démocratisées mais, comme toujours.</p>
+                    <p class="price">$70</p> <!-- Card Rating-->
+                    <ul class="row rating">
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <!--Card footer-->
+                    <div class="card-footer">
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	
+    </div>
+	<div class="more">
+		<a href="#">More <i class="fas fa-angle-double-right"></i></a>
+	</div>
+</div>
+      
+
+      <!-- Feature Start-->
+	  <div class="feature">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-xl-12">
+					<div class="section-headline centered margin-top-0 margin-bottom-45">
+						<h3>ACHETEZ EN TOUTE SÉRÉNITÉ</h3>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 feature-col">
+					<div class="feature-content">
+						<i class="fab fa-cc-mastercard"></i>
+						<h2>Secure Payment</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur elit
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 feature-col">
+					<div class="feature-content">
+						<i class="fa fa-truck"></i>
+						<h2>Worldwide Delivery</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur elit
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 feature-col">
+					<div class="feature-content">
+						<i class="fa fa-sync-alt"></i>
+						<h2>90 Days Return</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur elit
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 feature-col">
+					<div class="feature-content">
+						<i class="fa fa-comments"></i>
+						<h2>24/7 Support</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur elit
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Feature End--> 
+	
+	
+       <!-- Category Start-->
+	   <div class="category">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="section-headline centered margin-top-0 margin-bottom-45">
+						<h3>Category</h3>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="category-item ch-400">
+						<img src="images/1.jpg" />
+						<a class="category-name" href="">
+							<p>Some text goes here that describes the image</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="category-item ch-250">
+						<img src="images/2.jpg" />
+						<a class="category-name" href="">
+							<p>Some text goes here that describes the image</p>
+						</a>
+					</div>
+					<div class="category-item ch-150">
+						<img src="images/3.jpg" />
+						<a class="category-name" href="">
+							<p>Some text goes here that describes the image</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="category-item ch-150">
+						<img src="images/4.jpg" />
+						<a class="category-name" href="">
+							<p>Some text goes here that describes the image</p>
+						</a>
+					</div>
+					<div class="category-item ch-250">
+						<img src="images/6.jpg" />
+						<a class="category-name" href="">
+							<p>Some text goes here that describes the image</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="category-item ch-400">
+						<img src="images/5.jpg" />
+						<a class="category-name" href="">
+							<p>Some text goes here that describes the image</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Category End--> 
+
+	<div class="row">
+		<div class="col-xl-12">
+			<div class="section-headline centered margin-top-0 margin-bottom-45">
+				<h3>Map</h3>
+			</div>
+		</div>
+	    <div id="map"></div>
+	
+	</div>
+
+
 <!-- Footer
 ================================================== -->
 <div id="footer">
@@ -206,7 +423,7 @@
 					<p>Weekly breaking news, analysis and cutting edge advices on job searching.</p>
 					<form action="#" method="get" class="newsletter">
 						<input type="text" name="fname" placeholder="Enter your email address">
-						<button type="submit"><i class="icon-feather-arrow-right"></i></button>
+						<button type="submit"><i class="fas fa-chevron-right"></i></button>
 					</form>
 				</div>
 			</div>
@@ -241,6 +458,7 @@
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/custom.js"></script>
+
 <script>
 var slideIndex = 0;
 showSlides();
@@ -257,5 +475,23 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }	
 </script>
+
+<script>
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"async></script>
 </body>
 </html>

@@ -1,240 +1,20 @@
-
-body {
-	color: #353535;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	background: #f3f6ff;
-}
-a {
-	color: $primary-color;
-	&:hover {
-		color: #353535;
-		outline: none;
-		text-decoration: none;
-	}
-	&:active {
-		color: #353535;
-		outline: none;
-		text-decoration: none;
-	}
-	&:focus {
-		color: #353535;
-		outline: none;
-		text-decoration: none;
-	}
-}
-h1 {
-	font-family: 'Source Code Pro', monospace;
-	font-weight: 900;
-}
-h2 {
-	font-family: 'Source Code Pro', monospace;
-	font-weight: 700;
-}
-.back-to-top {
-	position: fixed;
-	display: none;
-	background: $primary-color;
-	color: #ffffff;
-	width: 40px;
-	height: 40px;
-	text-align: center;
-	line-height: 1;
-	font-size: 16px;
-	border-radius: 4px;
-	right: 15px;
-	bottom: 15px;
-	transition: background 0.5s;
-	z-index: 11;
-	i {
-		padding-top: 12px;
-		color: #ffffff;
-	}
-}
-.form-control {
-	width: 100%;
-	height: 35px;
-	padding: 0 15px;
-	color: #999999;
-	border: 1px solid #dddddd;
-	margin-bottom: 15px;
-	&:focus {
-		box-shadow: none;
-		border-color: $primary-color;
-	}
-}
-.custom-select {
-	width: 100%;
-	height: 35px;
-	padding: 0 15px;
-	color: #999999;
-	border: 1px solid #dddddd;
-	margin-bottom: 15px;
-	&:focus {
-		box-shadow: none;
-		border-color: $primary-color;
-	}
-}
-.custom-radio {
-	margin-bottom: 15px;
-	.custom-control-label {
-		&::before {
-			background: #dddddd;
-			border-color: #dddddd;
-		}
-	}
-	.custom-control-input {
-		&:checked~.custom-control-label {
-			&::before {
-				color: #ffffff;
-				background: $primary-color;
-				border-color: $primary-color;
-				box-shadow: none;
-			}
-		}
-	}
-}
-.custom-checkbox {
-	margin-bottom: 15px;
-	.custom-control-label {
-		&::before {
-			background: #dddddd;
-			border-color: #dddddd;
-		}
-	}
-	.custom-control-input {
-		&:checked~.custom-control-label {
-			&::before {
-				color: #ffffff;
-				background: $primary-color;
-				border-color: $primary-color;
-				box-shadow: none;
-			}
-		}
-	}
-}
-.btn {
-	color: $primary-color;
-	background: #ffffff;
-	border: 1px solid $primary-color;
-	&:hover {
-		color: #ffffff;
-		background: $primary-color;
-		box-shadow: none;
-	}
-	&:active {
-		color: #ffffff;
-		background: $primary-color;
-		box-shadow: none;
-	}
-	&:focus {
-		color: #ffffff;
-		background: $primary-color;
-		box-shadow: none;
-	}
-}
-.normal-slider {
-	.slick-prev {
-		width: 40px;
-		height: 40px;
-		z-index: 1;
-		opacity: 0;
-		transition: .5s;
-		background: rgba(255, 111, 97, .7);
-		border-radius: 4px;
-		left: 55px;
-		&:hover {
-			background: rgba(0, 0, 0, .7);
-			&::before {
-				color: $primary-color;
-			}
-		}
-		&:focus {
-			background: rgba(0, 0, 0, .7);
-			&::before {
-				color: $primary-color;
-			}
-		}
-		&::before {
-			font-family: "Font Awesome 5 Free";
-			font-weight: 900;
-			font-size: 30px;
-			color: #ffffff;
-			content: "\f104";
-		}
-	}
-	.slick-next {
-		width: 40px;
-		height: 40px;
-		z-index: 1;
-		opacity: 0;
-		transition: .5s;
-		background: rgba(255, 111, 97, .7);
-		border-radius: 4px;
-		right: 55px;
-		&:hover {
-			background: rgba(0, 0, 0, .7);
-			&::before {
-				color: $primary-color;
-			}
-		}
-		&:focus {
-			background: rgba(0, 0, 0, .7);
-			&::before {
-				color: $primary-color;
-			}
-		}
-		&::before {
-			font-family: "Font Awesome 5 Free";
-			font-weight: 900;
-			font-size: 30px;
-			color: #ffffff;
-			content: "\f105";
-		}
-	}
-	.slick-dots {
-		bottom: 15px;
-		li {
-			button {
-				&:before {
-					color: #ffffff;
-					font-size: 15px;
-				}
-			}
-		}
-		li.slick-active {
-			button {
-				&:before {
-					color: $primary-color;
-				}
-			}
-		}
-	}
-}
-.normal-slider.slick-slider {
-	&:hover {
-		.slick-prev {
-			left: 15px;
-			opacity: 1;
-		}
-		.slick-next {
-			right: 15px;
-			opacity: 1;
-		}
-	}
-}
-.slick-dotted.slick-slider {
-	margin-bottom: 0;
-}
+/**********************************/
+/********** Top Bar CSS ***********/
+/**********************************/
+/**********************************/
+/*********** Nav Bar CSS **********/
+/**********************************/
 .top-bar {
 	padding: 3px 0;
 	font-size: 14px;
 	color: $primary-color;
-	background: #000000;
+	background: #19203f;
 	i {
+		color: white;
 		margin-right: 5px;
 	}
 	.col-sm-6 {
+		color: white;
 		&:first-child {
 			text-align: left;
 		}
@@ -255,11 +35,74 @@ h2 {
 		border-radius: 0;
 		background: $primary-color;
 		a.active {
-			color: #353535;
 			background: #f8f9fa;
 		}
 	}
 }
+@media (max-width: 575.98px) {
+	.top-bar {
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		.col-sm-6 {
+			&:first-child {
+				text-align: center;
+			}
+			&:last-child {
+				text-align: center;
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.nav {
+		.container-fluid {
+			padding-left: 52px;
+			padding-right: 52px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.nav {
+		background: $primary-color !important;
+		.navbar {
+			background: $primary-color !important;
+		}
+		.navbar-brand {
+			display: none;
+		}
+		.navbar-dark {
+			a.nav-link {
+				color: #ffffff;
+				font-size: 14px;
+				text-transform: uppercase;
+				&:hover {
+					color: #000000;
+				}
+			}
+			a.nav-link.active {
+				color: #ffffff;
+				background-color: $primary-color;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.nav {
+		padding: 5px 0;
+		background: #000000 !important;
+		.navbar {
+			background: #000000 !important;
+		}
+		a.nav-link {
+			padding: 5px 0;
+		}
+		.dropdown-menu {
+			box-shadow: none;
+		}
+	}
+}
+/**********************************/
+/********* Bottom Bar CSS *********/
+/**********************************/
 .bottom-bar {
 	padding: 15px 0;
 	background: #ffffff;
@@ -280,7 +123,7 @@ h2 {
 			height: 40px;
 			padding: 0 15px;
 			color: #666666;
-			border: 1px solid $primary-color;
+			border: 1px solid $primary-color ;
 			border-radius: 4px;
 		}
 		button {
@@ -296,7 +139,7 @@ h2 {
 			border-radius: 0 2px 2px 0;
 			&:hover {
 				background: $primary-color;
-				color: #ffffff;
+				color: #ffffff ;
 			}
 		}
 	}
@@ -314,10 +157,10 @@ h2 {
 			}
 			&:hover {
 				i {
-					color: #ffffff;
+					color: #000;
 				}
 				span {
-					color: #ffffff;
+					color: #000;
 				}
 			}
 		}
@@ -331,15 +174,40 @@ h2 {
 			}
 			&:hover {
 				i {
-					color: #ffffff;
+					color: #000;
 				}
 				span {
-					color: #ffffff;
+					color: #000;
 				}
 			}
 		}
 	}
 }
+@media (min-width: 768px) {
+	.bottom-bar {
+		max-height: 90px;
+	}
+}
+@media (max-width: 767.98px) {
+	.bottom-bar {
+		.logo {
+			text-align: center;
+			margin-bottom: 15px;
+		}
+		.search {
+			text-align: center;
+			margin-bottom: 15px;
+		}
+		.user {
+			text-align: center;
+			margin-bottom: 15px;
+			margin-bottom: 0;
+		}
+	}
+}
+/**********************************/
+/*********** Header CSS ***********/
+/**********************************/
 .header {
 	position: relative;
 	.col-md-3 {
@@ -362,7 +230,6 @@ h2 {
 			}
 		}
 		a {
-			color: #353535;
 			&:hover {
 				color: $primary-color;
 				i {
@@ -465,89 +332,40 @@ h2 {
 		}
 	}
 }
-@media (min-width: 992px) {
-	.container-fluid {
-		padding-right: 60px;
-		padding-left: 60px;
-	}
+.dropbtn {
+	background-color: $primary-color;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
 }
-@media (max-width: 575.98px) {
-	.top-bar {
-		border-bottom: 1px solid rgba(255,255,255,.1);
-		.col-sm-6 {
-			&:first-child {
-				text-align: center;
-			}
-			&:last-child {
-				text-align: center;
-			}
+.dropdown {
+	position: relative;
+	display: inline-block;
+	&:hover {
+		.dropdown-content {
+			display: block;
 		}
-	}
-}
-@media (min-width: 992px) {
-	.nav {
-		.container-fluid {
-			padding-left: 52px;
-			padding-right: 52px;
+		.dropbtn {
+			background-color: $primary-color;
 		}
 	}
 }
-@media (min-width: 768px) {
-	.nav {
-		background: $primary-color !important;
-		.navbar {
-			background: $primary-color !important;
-		}
-		.navbar-brand {
-			display: none;
-		}
-		.navbar-dark {
-			a.nav-link {
-				color: #ffffff;
-				font-size: 14px;
-				text-transform: uppercase;
-				&:hover {
-					color: #000000;
-				}
-			}
-			a.nav-link.active {
-				color: #000000;
-			}
-		}
-	}
-	.bottom-bar {
-		max-height: 90px;
-	}
-}
-@media (max-width: 768px) {
-	.nav {
-		padding: 5px 0;
-		background: #000000 !important;
-		.navbar {
-			background: #000000 !important;
-		}
-		a.nav-link {
-			padding: 5px 0;
-		}
-		.dropdown-menu {
-			box-shadow: none;
-		}
-	}
-}
-@media (max-width: 767.98px) {
-	.bottom-bar {
-		.logo {
-			text-align: center;
-			margin-bottom: 15px;
-		}
-		.search {
-			text-align: center;
-			margin-bottom: 15px;
-		}
-		.user {
-			text-align: center;
-			margin-bottom: 15px;
-			margin-bottom: 0;
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		&:hover {
+			background-color: #f1f1f1;
 		}
 	}
 }

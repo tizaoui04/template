@@ -1,0 +1,61 @@
+ul {
+	list-style-type: none;
+	margin-left: 37%;
+	padding: 0;
+}
+.rating {
+	margin-left: 37%;
+	
+		color: #f2dd1d;
+
+}
+.page {
+
+	padding: 2%;
+	margin: auto;
+		.more{
+			
+			margin-left: 90%;
+		}
+}
+
+.card-img-top {
+	width: 90%;
+	height: 200px;
+}
+.view {
+
+	padding: 10px;
+	margin: 20px;
+}
+.card {
+	width: 80%;
+	padding: 0px;
+	margin-left: 2%;
+}
+.card-footer {
+	background-color: $primary-color;
+	font-weight: 700;
+		a {
+			color: white;
+			&:hover {
+				color: #353535;
+				outline: none;
+				text-decoration: none;
+			}
+			&:active {
+				color: #353535;
+				outline: none;
+				text-decoration: none;
+			}
+			&:focus {
+				color: #353535;
+				outline: none;
+				text-decoration: none;
+			}
+		}
+}
+.price {
+	color: $primary-color;
+	font-weight: 600;
+}

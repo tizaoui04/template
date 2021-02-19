@@ -1,8 +1,4 @@
 
-/* ---------------------------------- */
-/* Footer
-------------------------------------- */
-
 #footer {
   background-color: #303030;
   color: #c0c0c0;
@@ -11,12 +7,7 @@
   }
 }
 
-.footer-top-section {
-  border-bottom: 1px solid #484848;
-  .footer-logo img {
-    max-height: $logo-height;
-  }
-}
+
 
 .footer-rows-container {
   display: block;
@@ -72,99 +63,9 @@
   height: 100%;
 }
 
-/* Language Switcher */
 
-.language-switcher.bootstrap-select {
-  &.btn-group .dropdown-menu.inner {
-    width: 100%;
-  }
-  &:before {
-    display: none;
-  }
-  .dropdown-menu {
-    padding-top: 15px;
-    top: calc(100% + 15px);
-    width: 160px;
-    left: auto;
-    right: 0;
-    &:before {
-      position: absolute;
-      top: -5px;
-      content: "";
-      right: 20px;
-      width: 0;
-      height: 0;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-bottom: 5px solid #fff;
-    }
-  }
-  &.btn-group {
-    button {
-      height: 44px;
-      padding-right: 35px;
-      padding-left: 18px;
-      color: #fff;
-      background-color: #444;
-      transition: 0.3s;
-      box-shadow: none;
-    }
-    .dropdown-toggle .filter-option {
-      height: 44px;
-      line-height: 44px;
-    }
-    button:hover {
-      background-color: #fff;
-      color: $body-heading-color;
-    }
-    &.open button {
-      background-color: $primary-color;
-      color: #fff;
-    }
-    button {
-      &:hover {
-        background-color: $primary-color;
-        color: #fff;
-      }
-      .caret {
-        transition: 0.3s;
-      }
-    }
-    &.open button .caret, button:hover .caret {
-      border-top-color: #fff;
-    }
-    .dropdown-toggle .caret {
-      right: 18px;
-    }
-  }
-}
 
-/* Social Icons */
 
-.footer-social-links {
-  list-style: none;
-  margin: 0 -10px;
-  margin-top: 3px;
-  padding: 0;
-  li {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    float: left;
-    a {
-      font-size: 20px;
-      padding: 0 10px;
-      color: #fff;
-      display: inline-block;
-      transition: 0.3s;
-      opacity: 0.5;
-      transform: translate3d(0, -0.5px, 0);
-      &:hover {
-        opacity: 1;
-      }
-    }
-  }
-}
 
 /* Middle Section */
 
